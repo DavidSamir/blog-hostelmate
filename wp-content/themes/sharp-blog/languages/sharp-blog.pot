@@ -1,0 +1,90 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-24 16:15+0545\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: footer.php:27
+#, php-format
+msgid "Theme Sharp Blog Powered by %s"
+msgstr ""
+
+#: footer.php:27
+msgid "Kantipur Themes"
+msgstr ""
+
+#: index.php:55
+msgid "Previous page"
+msgstr ""
+
+#: index.php:56
+msgid "Next page"
+msgstr ""
+
+#: index.php:57
+msgid "Page"
+msgstr ""
+
+#: inc/customizer/editors-choice-section.php:5
+msgid "Editors Choice Section"
+msgstr ""
+
+#: inc/customizer/editors-choice-section.php:21
+msgid "Enable Editors Choice"
+msgstr ""
+
+#: inc/customizer/editors-choice-section.php:39
+#: inc/customizer/popular-posts-section.php:39
+#: inc/customizer/trending-posts-section.php:39
+msgid "Section Title"
+msgstr ""
+
+#: inc/customizer/editors-choice-section.php:57
+#: inc/customizer/popular-posts-section.php:57
+#: inc/customizer/trending-posts-section.php:57
+msgid "Number of Items (Max: 50)"
+msgstr ""
+
+#: inc/customizer/editors-choice-section.php:81
+#: inc/customizer/featured-posts-section.php:40
+#: inc/customizer/popular-posts-section.php:81
+#: inc/customizer/trending-posts-section.php:81
+msgid "Select Categories"
+msgstr ""
+
+#: inc/customizer/featured-posts-section.php:5
+msgid "Featured Posts Section"
+msgstr ""
+
+#: inc/customizer/featured-posts-section.php:21
+msgid "Enable Featured Posts"
+msgstr ""
+
+#: inc/customizer/popular-posts-section.php:5
+msgid "Popular Posts Section"
+msgstr ""
+
+#: inc/customizer/popular-posts-section.php:21
+msgid "Enable Popular Posts"
+msgstr ""
+
+#: inc/customizer/trending-posts-section.php:5
+msgid "Trending Posts Section"
+msgstr ""
+
+#: inc/customizer/trending-posts-section.php:21
+msgid "Enable Trending Posts"
+msgstr ""

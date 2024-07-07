@@ -1,0 +1,509 @@
+/*!
+Theme Name: Sharp Blog
+Theme URI: https://www.kantipurthemes.com/downloads/sharp-blog
+Author: Kantipur Themes
+Author URI: https://www.kantipurthemes.com/
+Description: Sharp Blog is a simple, clean and responsive WordPress blog theme built by Kantipur Themes. This theme is perfect for youtube bloggers, travel blog, food blog, fashion blog and writers who need to create personal blog site with simple creative features and effects to make readers feel the pleasure of reading blog posts and articles.
+Version: 1.0
+Requires at least: 5.1
+Requires PHP: 5.6
+Tested up to: 6.5
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template: emerge-blog
+Text Domain: sharp-blog
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, one-column, two-columns, custom-header, blog, entertainment, portfolio
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Sharp Blog  is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+body,
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6,
+.site-title,
+.site-description,
+.navigation-menu a {
+	font-family: 'Inconsolata', sans-serif;
+}
+
+/*--------------------------------------------------------------
+# Color
+--------------------------------------------------------------*/
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.btn,
+.reply a,
+a,
+.site-title a:hover,
+.site-title a:focus,
+.navigation-menu li.current-menu-item > a,
+.navigation-menu .nav-menu > li:hover > a,
+.navigation-menu .nav-menu > li.focus > a,
+.navigation-menu .nav-menu > li > a:hover,
+.navigation-menu .nav-menu > li > a:focus,
+.navigation-menu a:hover,
+.navigation-menu a:focus,
+.navigation-menu li:hover > a,
+.site-main .comment-navigation a:hover, 
+.site-main .posts-navigation a:hover, 
+.site-main .post-navigation a:hover,
+.site-main .comment-navigation a:focus, 
+.site-main .posts-navigation a:focus, 
+.site-main .post-navigation a:focus,
+#secondary a:hover,
+#secondary a:focus,
+.error-404.not-found .title,
+.entry-title a:hover,
+.entry-title a:focus,
+.comments-link a:hover,
+.comments-link a:focus,
+.cat-links a:hover,
+.cat-links a:focus,  
+.posted-on a:hover,
+.posted-on a:focus,
+.single-post-wrap .entry-footer .tags-links a:hover,
+.single-post-wrap .entry-footer .tags-links a:focus,
+.logged-in-as a:hover,
+.logged-in-as a:focus,
+#colophon a:hover,
+#colophon a:focus {
+    color: #00C39A;
+}
+
+.navigation-menu .nav-menu > li > a:hover svg,
+.navigation-menu .nav-menu > li > a:focus svg,
+.navigation-menu .nav-menu > li:hover > a svg,
+.post-navigation .nav-previous a:hover svg,
+.post-navigation .nav-previous a:focus svg,
+.post-navigation .nav-next a:hover svg,
+.post-navigation .nav-next a:focus svg {
+    fill: #00C39A;
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+.btn:hover,
+.btn:focus,
+.reply a:hover,
+.reply a:focus,
+button:active, 
+button:focus,
+input[type="button"]:active,
+input[type="button"]:focus,
+input[type="reset"]:active,
+input[type="reset"]:focus,
+input[type="submit"]:active,
+input[type="submit"]:focus,
+.navigation.pagination .page-numbers.current,
+.navigation.pagination .page-numbers:hover,
+.navigation.pagination .page-numbers:focus,
+.widget_search input[type="submit"],
+.wp-block-tag-cloud a:hover,
+.wp-block-tag-cloud a:focus,
+.wp-block-search__button,
+#wp-custom-header-video-button.wp-custom-header-video-pause:after,
+.read-more a:hover,
+.read-more a:focus,
+.to-top,
+.section-trending-posts .cat-links a:hover,
+.section-trending-posts .cat-links a:focus {
+    background-color: #00C39A;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.btn,
+.reply a,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="range"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="color"]:focus,
+textarea:focus,
+.navigation.pagination .page-numbers.current,
+.navigation.pagination .page-numbers:hover,
+.navigation.pagination .page-numbers:focus,
+.wp-block-tag-cloud a:hover,
+.wp-block-tag-cloud a:focus,
+.read-more a:hover,
+.read-more a:focus,
+.section-trending-posts .cat-links a:hover,
+.section-trending-posts .cat-links a:focus {
+    border-color: #00C39A;
+}
+
+#wp-custom-header-video-button:before,
+#wp-custom-header-video-button.wp-custom-header-video-pause:after {
+    border-left-color: #00C39A;
+}
+
+@media screen and (min-width: 1024px) {
+    .navigation-menu li.current-menu-item > a,
+    .navigation-menu .nav-menu > li:hover > a,
+    .navigation-menu .nav-menu > li.focus > a,
+    .navigation-menu .nav-menu > li > a:hover,
+    .navigation-menu .nav-menu > li > a:focus {
+        color: #00C39A;
+    }
+
+    #masthead .nav-menu ul.sub-menu {
+        border-top-color: #00C39A;
+    }
+}
+
+/*--------------------------------------------------------------
+# Section Header
+--------------------------------------------------------------*/
+.section-header {
+    margin-bottom: 30px;
+}
+
+.section-header .section-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.post-thumbnail-link {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*--------------------------------------------------------------
+# Featured Posts Section
+--------------------------------------------------------------*/
+.custom-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+[class*="custom-col-"] {
+    padding: 0 10px;
+    position: relative;
+    width: 100%;
+}
+.section-featured-posts {
+    margin-bottom: 30px;
+}
+.section-featured-posts .featured-image {
+    background-color: #cccccc;
+    position: relative;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    -ms-flex-pack: center;
+    z-index: 1;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-align-items: flex-end;
+    -moz-align-items: flex-end;
+    -ms-align-items: flex-end;
+    -ms-flex-align: flex-end;
+    align-items: flex-end;
+    height: 300px;
+}
+.section-featured-posts .feature-big-posts .featured-image {
+    height: 620px;
+}
+.section-featured-posts .featured-image:before {
+    background-color: rgba(0, 0, 0, 0.3);
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+    position: absolute;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    z-index: 1;
+}
+.section-featured-posts .entry-container {
+    padding: 40px 40px 30px 40px;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+.feature-posts-content-wrap {
+    margin-bottom: 20px;
+}
+.section-featured-posts .entry-content {
+    color: #fff;
+    margin-bottom: 15px;
+}
+.section-featured-posts .entry-meta > span:not(:last-child):after {
+    color: #fff;
+    opacity: 0.9;
+}
+.section-featured-posts .cat-links {
+    display: inline-block;
+}
+.section-featured-posts .entry-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.section-featured-posts .entry-title a {
+    text-decoration: none;
+    color: #fff;
+}
+.section-featured-posts .entry-meta a,
+.section-featured-posts .posted-on {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+.section-featured-posts .entry-title a:hover,
+.section-featured-posts .entry-title a:focus,
+.section-featured-posts .entry-meta a:hover,
+.section-featured-posts .entry-meta a:focus {
+    color: #fff;
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+    .custom-col-md-12 {
+        width: 100%;
+    }
+    .custom-col-md-6 {
+        width: 50%;
+    }
+}
+@media screen and (min-width: 992px) {
+    .custom-col-lg-7 {
+        width: 58.333333%;
+    }
+    .custom-col-lg-5 {
+       width: 41.666667%;
+    }
+    .section-featured-posts .entry-header, 
+    .section-featured-posts .entry-content, 
+    .section-featured-posts .entry-meta {
+        max-width: 90%;
+    }
+    .section-featured-posts .feature-big-posts .entry-title {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .section-featured-posts .feature-big-posts .featured-image {
+        height: 400px;
+    }
+}
+
+/*--------------------------------------------------------------
+# Popular Posts
+--------------------------------------------------------------*/
+.section-popular-posts {
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.section-popular-posts .featured-image {
+    margin-bottom: 15px;
+    background-size: cover;
+    background-position: center center;
+    padding: 125px 0;
+}
+.section-popular-posts .entry-meta {
+    margin-bottom: 5px;
+}
+.section-popular-posts .entry-title {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.section-popular-posts .entry-content {
+    margin-bottom: 20px;
+}
+.section-popular-posts .read-full a {
+    text-decoration: none;
+    color: #000;
+}
+.section-popular-posts .read-full a:hover,
+.section-popular-posts .read-full a:focus {
+    text-decoration: underline;
+}
+
+/*--------------------------------------------------------------
+# Trending Posts Section
+--------------------------------------------------------------*/
+.section-trending-posts {
+    margin-bottom: 30px;
+}
+.section-trending-posts .featured-image {
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position: center center;
+    padding: 175px 0;
+}
+.section-trending-posts .cat-links {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.section-trending-posts .cat-links a {
+    color: #000;
+    border: 1px solid #000;
+    line-height: 1;
+    padding: 0px 13px;
+    border-radius: 25px;
+    font-size: 15px;
+}
+.section-trending-posts .cat-links a:hover,
+.section-trending-posts .cat-links a:focus {
+    background-color: #00C39A;
+    border-color: #00C39A;
+    color: #fff;
+}
+.section-trending-posts .entry-title {
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.section-trending-posts .read-full a {
+    text-decoration: none;
+    color: #000;
+}
+.section-trending-posts .read-full a:hover,
+.section-trending-posts .read-full a:focus {
+    text-decoration: underline;
+}
+
+/*--------------------------------------------------------------
+# Editors Choice
+--------------------------------------------------------------*/
+.section-editors-choice {
+    margin-bottom: 30px;
+}
+
+.section-editors-choice .editors-choice-item {
+    position: relative;
+}
+
+.section-editors-choice .featured-image {
+    padding: 110px 0;
+    background-size: cover;
+    background-position: center center;
+    background-color: #333;
+}
+
+.section-editors-choice .featured-image:before {
+    background-color: rgba(0, 0, 0, 0.4);
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+    position: absolute;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    z-index: 1;
+}
+
+.section-editors-choice .entry-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: left;
+    padding: 30px;
+    z-index: 2;
+}
+
+.section-editors-choice .entry-title {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.section-editors-choice .read-full {
+    display: inline-block;
+}
+
+.section-editors-choice .entry-meta > span:not(:last-child):after {
+    color: #ddd;
+}
+
+.section-editors-choice .entry-title a,
+.section-editors-choice .cat-links a,
+.section-editors-choice .posted-on a,
+.section-editors-choice .read-full a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.section-editors-choice .entry-title a:hover,
+.section-editors-choice .entry-title a:focus,
+.section-editors-choice .cat-links a:hover,
+.section-editors-choice .cat-links a:focus,
+.section-editors-choice .posted-on a:hover,
+.section-editors-choice .posted-on a:focus,
+.section-editors-choice .read-full a:hover,
+.section-editors-choice .read-full a:focus {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.section-editors-choice .posted-on,
+.section-editors-choice .cat-links {
+    color: #fff;
+}
+
+@media screen and (min-width: 992px) {
+    .section-editors-choice .entry-container {
+        padding: 40px;
+    }
+}

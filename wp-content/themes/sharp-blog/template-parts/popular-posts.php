@@ -15,7 +15,8 @@ $query = new WP_Query( apply_filters( 'sharp_blog_popular_posts_args', array(
 $sharp_blog_posts_array = $query->get_posts();
 $sharp_blog_show_popular_posts = count( $sharp_blog_posts_array ) > 0 && is_home();
 
-if( get_theme_mod( 'sharp_blog_popular_posts', true ) && $sharp_blog_show_popular_posts ) {
+// if( get_theme_mod( 'sharp_blog_popular_posts', true ) && $sharp_blog_show_popular_posts ) {
+if(false) {
 	?>
 	<section class="section-popular-posts">
 		<div class="section-header">

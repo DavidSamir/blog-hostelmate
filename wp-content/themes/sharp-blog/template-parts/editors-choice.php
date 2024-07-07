@@ -14,7 +14,7 @@ $query = new WP_Query( apply_filters( 'sharp_blog_editors_choice_args', array(
 
 $sharp_blog_posts_array = $query->get_posts();
 $sharp_blog_show_editors_choice = count( $sharp_blog_posts_array ) > 0 && is_home();
-
+// if( get_theme_mod( 'editors_choice', true ) && $sharp_blog_show_editors_choice ){
 if(false){
 	?>
 	<section class="section-editors-choice">
